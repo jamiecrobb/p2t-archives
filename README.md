@@ -6,4 +6,13 @@ Tidied up and organised for use as reference material during practical exams.
 
 ## Contents
 
-### Labs# p2t-archives
+### Lab 1
+
+- Basic Linux command line
+- Basic C programming
+    - Compiling
+    - Bug fixing
+    - Scope and lifetime
+
+### Lab 2   
+
