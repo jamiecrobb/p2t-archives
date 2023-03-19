@@ -1,0 +1,145 @@
+--------------------------------------------------------------------------------
+    LAB 05     			                             GNU Make and Git 
+--------------------------------------------------------------------------------
+
+    Answer all questions for Lab05 in this file. Questions or tasks which 
+    require you to edit another file have the name of the file already 
+    entered for you.
+
+--------------------------------------------------------------------------------
+    QUESTIONS
+--------------------------------------------------------------------------------
+
+------------------
+    ACTIVITY 1 
+------------------
+
+1) git init									[1]
+
+2) cd ~ && git clone https://bitbucket.org/glaphysp2t/lab5-example.git									[2]
+
+3a) git log --oneline 									[1]
+
+3b)	A simple program that prints out an ASCII histogram based on a test set of integer data					 			[1]
+    
+4) 									[1]
+
+5)
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        draw.o
+        histogram
+        histogram.o
+        util.o
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ 									[1]
+
+6a)					
+git add README.md
+git commit -m "Added readme"				[2]
+
+6b)		
+commit fe3b5d93c6e68e8fd287e48f3413150c8ada07a9 (HEAD -> master)
+Author: Jamie Robb <jamierobb321@gmail.com>
+Date:   Sat Mar 11 13:32:55 2023 +0000
+
+    Updated readme
+
+commit 8fbd35f49df21f5b607e6f8a309cb15dd4973c2e (origin/master, origin/HEAD)
+Author: Gareth Roy <gareth.roy@gmail.com>
+Date:   Thu Jan 8 13:51:56 2015 +0000
+
+    Refactored to move utility code out of the main file
+
+commit e532f4f3fa59f94af33023fae79d96473401b4e7
+Author: Gareth Roy <gareth.roy@gmail.com>
+Date:   Thu Jan 8 13:47:05 2015 +0000
+
+    Added randomly generated data
+
+commit 6dcdfe5314898e12473a2e6faaf43bd87c43eba5
+Author: Gareth Roy <gareth.roy@gmail.com>
+Date:   Thu Jan 8 12:07:38 2015 +0000
+							[1]
+
+7) git branch myfeature									[1]
+
+8a)	git checkout myfeature	
+							[1]
+
+8b)							
+  master
+* myfeature
+		[1]
+
+9)						
+commit bd1f52a094ee7d09ddba36d2509c003d9affb216 (HEAD -> myfeature)
+Author: Jamie Robb <jamierobb321@gmail.com>
+Date:   Sat Mar 11 13:35:58 2023 +0000
+
+    Updated readme again
+
+commit fe3b5d93c6e68e8fd287e48f3413150c8ada07a9 (master)
+Author: Jamie Robb <jamierobb321@gmail.com>
+Date:   Sat Mar 11 13:32:55 2023 +0000
+
+    Updated readme
+
+commit 8fbd35f49df21f5b607e6f8a309cb15dd4973c2e (origin/master, origin/HEAD)
+Author: Gareth Roy <gareth.roy@gmail.com>
+Date:   Thu Jan 8 13:51:56 2015 +0000
+
+    Refactored to move utility code out of the main file
+
+commit e532f4f3fa59f94af33023fae79d96473401b4e7
+Author: Gareth Roy <gareth.roy@gmail.com>
+Date:   Thu Jan 8 13:47:05 2015 +0000
+			[1]
+
+------------------
+    QUESTIONS 
+------------------
+
+10a) The name of the target 									[1]
+
+10b) The names of all of the prerequisites									[1]
+
+10c) The name of the first prerequisite									[1]
+
+10d) The names of all of the prerequisites newer than the target									[1]
+
+------------------
+    ACTIVITY 2
+------------------
+
+11) Submit modified Makefile*						[5]
+
+12) Submit modified Makefile*						[2]
+
+13) Submit sim.data							[2]
+
+14) Submit graph image							[2]
+    
+15a) 									[3]
+
+15b)									[2]
+    
+16) Submit modified Makefile*						[1]
+
+* Note: only the final Makefile (i.e. after step 16) needs to be submitted.  It
+        is not necessary to submit the intermediate changes.
+
+--------------------------------------------------------------------------------
+    FINISHED LAB 05                                             MARKS: XX/35
+--------------------------------------------------------------------------------    

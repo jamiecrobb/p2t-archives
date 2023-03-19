@@ -1,0 +1,139 @@
+--------------------------------------------------------------------------------
+    LAB 01                               An introduction to the command line    
+--------------------------------------------------------------------------------
+
+    Answer all questions for Lab01 in this file.
+
+--------------------------------------------------------------------------------
+    QUESTIONS - Files and Directories
+--------------------------------------------------------------------------------
+
+------------------
+    QUESTION 1
+------------------
+project/:
+exp1
+
+project/exp1:
+data  docs  results
+
+project/exp1/data:
+10.data  14.data  18.data  21.data  25.data  29.data  32.data  36.data  3.data   43.data  47.data  50.data  7.data
+11.data  15.data  19.data  22.data  26.data  2.data   33.data  37.data  40.data  44.data  48.data  5.data   8.data
+12.data  16.data  1.data   23.data  27.data  30.data  34.data  38.data  41.data  45.data  49.data  5s       9.data
+13.data  17.data  20.data  24.data  28.data  31.data  35.data  39.data  42.data  46.data  4.data   6.data
+
+project/exp1/data/5s:
+15.data  25.data  35.data  45.data  50.data  5.data
+
+project/exp1/docs:
+
+project/exp1/results:
+									[1]
+
+------------------
+    QUESTION 2 
+------------------
+cp -R ~/experiment/ exp1/
+									[1]
+    
+------------------
+    QUESTION 3
+------------------
+The directory had files inside of it and we didn't try to recursively delete it.
+									[1]
+   
+------------------
+    QUESTION 4
+------------------
+rm -rf experiment
+									[1]
+    
+------------------
+    QUESTION 5
+------------------
+
+A) Lists all entries, including hidden files.							[1]
+
+B) It begins with a dot (.)  									[1]
+
+C) .PhysicsIsFun  									[1]
+
+------------------
+    QUESTION 6
+------------------
+
+A) . refers to the current directory, .. refers to the parent directory.									[2]
+
+B) ls -A  									[1]
+   
+------------------
+    QUESTION 7 
+------------------
+
+A) ls -lS  									[1]
+    
+B) ls -lt  									[1]
+  
+-------------------
+    QUESTION 8 
+-------------------
+
+A) cd ../../									[1]
+
+B) cd /home/jamie/project/									[1]
+    
+-------------------
+    QUESTION 9 
+-------------------
+    
+A) -N									[1]
+    
+B)  exit 1									[1]
+    
+-------------------
+    QUESTION 10
+-------------------
+
+A) 10									[1]
+
+B) head -n 5									[1]
+
+C) -l							[1]
+ 
+
+--------------------------------------------------------------------------------
+    QUESTIONS - File Permissions
+--------------------------------------------------------------------------------
+
+-------------------
+    QUESTION 11
+-------------------
+
+A) Owning users and groups can read and write the file, and everyone else can execute it.									[3]
+  
+B) chmod 744 <filename>  									[2]
+    
+-------------------
+    QUESTION 12
+-------------------
+It will have a d at the start of the permission string.
+									[1]
+    
+-------------------
+    QUESTION 13
+-------------------
+
+A) -i									[1]
+
+B) -f									[1]
+      
+-------------------
+    QUESTION 14
+-------------------
+Sssshhh, it's a secret :)
+									[1]
+	
+--------------------------------------------------------------------------------
+    FINISHED LAB 01                                             MARKS: XX/28    
+--------------------------------------------------------------------------------

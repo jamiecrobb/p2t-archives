@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------
+    LAB 03                                                      BASH SCRIPTING
+--------------------------------------------------------------------------------
+
+    Answer the questions for Lab 3 in this file.  Provide solutions for the
+    scripting tasks in files named Task<N>.sh as described in the lab script.
+
+    Submit a single archive (Tar, compressed Tar or Zip) containing this file
+    along with your .sh files.
+
+--------------------------------------------------------------------------------
+    QUESTIONS
+--------------------------------------------------------------------------------
+
+------------------
+    QUESTION 1 
+------------------
+#! /bin/bash
+
+									[1]
+
+------------------
+    QUESTION 2 
+------------------
+It prints out the content of the file to the console because bash doesn't recognise the file as an executable.
+
+									[2]
+
+------------------
+    QUESTION 3 
+------------------
+There is a comment above the shebang.
+
+									[1]
+
+------------------
+    TASK 1 
+------------------
+
+Provide a Task1.sh							[4]
+
+------------------
+    TASK 2 
+------------------
+
+Provide a Task2.sh							[5]
+
+------------------
+    TASK 3 
+------------------
+
+Provide a Task3.sh							[5]
+
+------------------
+    TASK 4 
+------------------
+
+Provide a Task4.sh							[8]
+
+------------------
+    TASK 5 
+------------------
+
+Provide a Task5.sh							[9]
+
+------------------
+    TASK 6 
+------------------
+
+!!! Missing question? !!!
+
+
+Provide a Task6.sh							[10]
+
+
+--------------------------------------------------------------------------------
+    FINISHED LAB 03                                             MARKS: XX/45
+--------------------------------------------------------------------------------

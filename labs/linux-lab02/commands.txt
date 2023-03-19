@@ -1,0 +1,10 @@
+     16 pull main
+     17 ./out 1.0 2
+     17 pull
+     19 cd
+     22 flask run
+     25 clang -o out cuberoots.c
+     30 branch
+     32 ..
+     43 npm start
+    170 l
